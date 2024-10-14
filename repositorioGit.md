@@ -39,7 +39,7 @@ En resumen, git commit guarda cambios al repositorio local y les asigna un mensa
 restaura todos los archivos modificados en el directorio actual al último estado confirmado (commit más reciente). En otras palabras, descarta todos los cambios no guardados que hayas hecho, devolviendo los archivos a como estaban en el último commit.
 
 # colocamos nuestr repositorio 
-
+git remote add origin https://github.com/DiegoDomingue-Z/Tabla-Multiplicar-Consola-Node.js.git
 
 # loa gregamos a la rama principal
 git branch -M main
@@ -55,3 +55,6 @@ git push -u origin main
 # si queremos subir un cambio a git 
 preparamos nuestros cambios 
 * git add . 
+
+tomamos la forografia 
+*git commit -m 'agregando el readme'
